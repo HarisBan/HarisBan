@@ -65,35 +65,35 @@ sudo npm update --save
 <pre><code>export PATH=$PATH:path_to_hexo/bin // 记得加入 ~/.bashrc （其他shell自行参考）
 </code></pre>
 <p>再次尝试<strong>hexo -v</strong>：</p>
-<p><img src="/%E4%B9%9D%E6%9C%A9%E4%B8%83%E5%85%AB/hexo-v.png" alt="hexo-v"></p>
-<pre><code>&lt;!-- haris@Haris-LAPTOP:/usr/bin$ hexo -v
-hexo-cli: 4.3.1
-os: linux 5.15.90.1-microsoft-standard-WSL2 Ubuntu 22.04.2 LTS 22.04.2 LTS (Jammy Jellyfish)
-node: 18.16.0
-acorn: 8.8.2
-ada: 1.0.4
-ares: 1.19.0
-brotli: 1.0.9
-cldr: 42.0
-icu: 72.1
-llhttp: 6.0.10
-modules: 108
-napi: 8
-nghttp2: 1.52.0
-nghttp3: 0.7.0
-ngtcp2: 0.8.1
-openssl: 3.0.8+quic
-simdutf: 3.2.2
-tz: 2022g
-undici: 5.21.0
-unicode: 15.0
-uv: 1.44.2
-uvwasi: 0.0.15
-v8: 10.2.154.26-node.26
-zlib: 1.2.13
-haris@Haris-LAPTOP:/usr/bin$
-</code></pre>
-<p><strong>hexo g</strong>, <strong>hexo d</strong> 均成功，完美解决! –&gt;</p>
+<p><img src="/.com//hexo-v.png" alt="hexo-v"></p>
+<!-- haris@Haris-LAPTOP:/usr/bin$ hexo -v
+    hexo-cli: 4.3.1
+    os: linux 5.15.90.1-microsoft-standard-WSL2 Ubuntu 22.04.2 LTS 22.04.2 LTS (Jammy Jellyfish)
+    node: 18.16.0
+    acorn: 8.8.2
+    ada: 1.0.4
+    ares: 1.19.0
+    brotli: 1.0.9
+    cldr: 42.0
+    icu: 72.1
+    llhttp: 6.0.10
+    modules: 108
+    napi: 8
+    nghttp2: 1.52.0
+    nghttp3: 0.7.0
+    ngtcp2: 0.8.1
+    openssl: 3.0.8+quic
+    simdutf: 3.2.2
+    tz: 2022g
+    undici: 5.21.0
+    unicode: 15.0
+    uv: 1.44.2
+    uvwasi: 0.0.15
+    v8: 10.2.154.26-node.26
+    zlib: 1.2.13
+    haris@Haris-LAPTOP:/usr/bin$
+**hexo g**, **hexo d** 均成功，完美解决! -->
+
 <h3 id="开启-x2F-关闭-hyper-v"><a href="#开启-x2F-关闭-hyper-v" class="headerlink" title="开启&#x2F;关闭 hyper-v"></a>开启&#x2F;关闭 hyper-v</h3><hr>
 <p>vmbox虚拟机需要关闭hyper-v（否则ensp模拟软件无法正常启动），但微软自带的WSL2（即linux子系统启动需要开启hyper-v）</p>
 <pre><code>管理员身份打开powershell
