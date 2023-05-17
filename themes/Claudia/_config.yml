@@ -44,7 +44,7 @@ comment_valine:
 
 comment_disqus:
     enable: false
-    url:  # the url of your website main domain like this https://xxx.xxx/
+    url: https://harisban.github.io/  # the url of your website main domain like this https://xxx.xxx/
     name: # the short name in disqus
 
 # dark
