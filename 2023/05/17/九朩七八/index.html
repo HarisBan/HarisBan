@@ -62,10 +62,11 @@ sudo npm update -g
 sudo npm update --save
 </code></pre>
 <p>安装完成后，发现hexo -v提示没有hexo这个指令，查看git_path&#x2F;node_modules&#x2F;中已经有hexo相关文件夹，猜测是hexo为加入到环境变量所致，遂尝试添加环境变量：</p>
-<pre><code>export PATH=$PATH:path_to_hexo/bin // 记得加入 ~/.bashrc （其他shell自行参考）
+<pre><code>export PATH=$PATH:path_to_hexo/bin ## 记得加入 `~/.bashrc` （其他shell自行参考）
 </code></pre>
 <p>再次尝试<strong>hexo -v</strong>：</p>
-<p><img src="https://github.com/HarisBan/harisban.github.io/blob/master/2023/05/17/%E4%B9%9D%E6%9C%A9%E4%B8%83%E5%85%AB/hexo-v.png" alt="hexo-v"></p>
+<img src="/.com//hexo_v.png" width="500" height="300" alt="图片无法加载时显示的文字" align="center">
+
 <!-- haris@Haris-LAPTOP:/usr/bin$ hexo -v
     hexo-cli: 4.3.1
     os: linux 5.15.90.1-microsoft-standard-WSL2 Ubuntu 22.04.2 LTS 22.04.2 LTS (Jammy Jellyfish)
