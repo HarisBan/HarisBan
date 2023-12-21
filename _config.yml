@@ -3,11 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: Haris' Blog
+# title: ''
+# subtitle: ''
+description: '凡是过往，皆为序章'
+keywords: 
+author: Haris Ban
 language: en
 timezone: ''
 
@@ -98,7 +99,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: Claudia
+# theme: Claudia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -106,3 +108,9 @@ deploy:
   type: git
   repo: git@github.com:HarisBan/harisban.github.io.git
   branch: master
+
+excerpt:
+  depth: 10
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
