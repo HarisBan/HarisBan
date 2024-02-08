@@ -1,6 +1,7 @@
 # main menu navigation
 menu:
   Home: /
+  Categories: /catagories
   Tag: /tags
   Archive: /archives
   About: /about
