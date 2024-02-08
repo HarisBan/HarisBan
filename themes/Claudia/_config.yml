@@ -1,10 +1,10 @@
 # main menu navigation
 menu:
   Home: /
-  Categories: /catagories
-  Tag: /tags
-  Archive: /archives
-  About: /about
+  # Categories: catagories
+  # Tag: /tags/index.md
+  Archive: archives
+  About: about
 
 widgets:
   - archive
@@ -26,7 +26,7 @@ user:
   name: Haris Ban
   avatar: /images/avatar.jpg
   location: In the dust
-  description: May the Force be with you
+  description: 從未與妳飲過冰,零度天氣看風景
   footnotes: # footnotes
 
 # documents: https://github.com/utterance/utterances
