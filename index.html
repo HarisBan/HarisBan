@@ -123,18 +123,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -151,6 +151,86 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://harisban.github.io/2024/02/08/%E7%BC%96%E7%A8%8B%E4%B9%8B%E7%BE%8E/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Haris Ban">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Haris' Blog">
+      <meta itemprop="description" content="凡是过往，皆为序章">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Haris' Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2024/02/08/%E7%BC%96%E7%A8%8B%E4%B9%8B%E7%BE%8E/" class="post-title-link" itemprop="url">编程之美</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2024-02-08 11:16:28 / Modified: 11:28:10" itemprop="dateCreated datePublished" datetime="2024-02-08T11:16:28+08:00">2024-02-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/LeetCode/" itemprop="url" rel="index"><span itemprop="name">LeetCode</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h3><hr>
+<h4 id="按数组元素值，对数组下标排序"><a href="#按数组元素值，对数组下标排序" class="headerlink" title="按数组元素值，对数组下标排序"></a>按数组元素值，对数组下标排序</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// leetcode 1686</span></span><br><span class="line"><span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">ids</span><span class="params">(n)</span> </span></span><br><span class="line"><span class="function"><span class="title">iota</span><span class="params">(ids.begin(), ids.end(), <span class="number">0</span>)</span> <span class="comment">// 构造一个从“0”开始的序列</span></span></span><br><span class="line"><span class="function"><span class="title">ranges::sort</span><span class="params">(ids, [&amp;](<span class="type">int</span> i, <span class="type">int</span> j) &#123;<span class="keyword">return</span> nums[i] &lt; nums[j];&#125;)</span></span>; <span class="comment">// 根据nums[i]对下标进行降序排列, nums[idx[i]] &lt;= nums[ids[i+1]]</span></span><br><span class="line"><span class="comment">// 巧妙的返回值：</span></span><br><span class="line"><span class="keyword">return</span> (diff &gt; <span class="number">0</span>) - (diff &lt; <span class="number">0</span>); <span class="comment">// 摘抄自灵茶山艾府的解析</span></span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -196,7 +276,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-12-21 16:34:34" itemprop="dateModified" datetime="2023-12-21T16:34:34+08:00">2023-12-21</time>
+      <time title="Modified: 2024-02-08 10:59:49" itemprop="dateModified" datetime="2024-02-08T10:59:49+08:00">2024-02-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -640,7 +720,7 @@ ps aux | grep 22
 
 <div class="copyright">
   &copy; 
-  <span itemprop="copyrightYear">2023</span>
+  <span itemprop="copyrightYear">2024</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
